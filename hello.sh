@@ -1,4 +1,4 @@
 #!/bin/bash
 
-STR="Hello world"
+STR="Hello world!"
 echo $STR
