@@ -1,0 +1,13 @@
+#!/bin/bash
+
+clear
+echo "Welcome..."
+sleep 2
+echo "What's up?"
+read ans
+
+clear
+echo "You typed $ans"
+echo "$ans" >> ans.txt
+
+cat ans.txt
